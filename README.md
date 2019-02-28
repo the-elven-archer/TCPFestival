@@ -30,13 +30,13 @@ tf.sayText("HI! How are you? This is fun!")
 You would hear the TTS synthesis from your computer.
 
 - You can list server voices:
-```
+```python
 tf.listVoices()
 ['kal_diphone', 'rab_diphone']
 ```
 
 - And change it:
-```
+```pytyhon
 tf.changeVoice("rab_diphone")
 {'type': 'lisp', 'output': [], 'exit': 'ok'}
 ```
